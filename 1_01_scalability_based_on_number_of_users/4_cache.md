@@ -7,10 +7,9 @@
 ### 캐시 계층(cache tier)
 
 - 주도형 캐시 전략(read-through caching strategy)
-
-1.  데이터가 캐시에 있으면 캐시에서 데이터 읽음
-2.  데이터가 캐시에 없으면 데이터베이스에서 해당 데이터를 읽어 캐시에 씀
-3.  웹 서버에 데이터 반환
+  1.  데이터가 캐시에 있으면 캐시에서 데이터 읽음
+  2.  데이터가 캐시에 없으면 데이터베이스에서 해당 데이터를 읽어 캐시에 씀
+  3.  웹 서버에 데이터 반환
 
 다양한 캐시 전략 참조 사이트
 https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/
